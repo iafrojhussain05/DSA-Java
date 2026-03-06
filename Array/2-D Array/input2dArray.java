@@ -5,15 +5,16 @@ public static void main(String args[]){
 Scanner sc = new Scanner(System.in);
 
 int matrix [][] = new int[3][3];
-System.out.println("Enetr Three element");
+
+System.out.println("Enetr nine element");
 for(int i=0; i<matrix.length; i++){
-for(int j =0; j<matrix.length; j++){
+for(int j =0; j<matrix[0].length; j++){
 matrix[i][j] = sc.nextInt();
 }
 }
 
 for(int i=0; i<matrix.length; i++){ 
-for(int j =0; j<matrix.length; j++){ 
+for(int j =0; j<matrix[0].length; j++){ 
 System.out.print(matrix[i][j]+" ");
 }
 System.out.println();
